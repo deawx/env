@@ -1,0 +1,23 @@
+{
+    "name": "elegance/env",
+    "description": "Carrega arquivos .env para variaveis de ambiente",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "app/"
+        },
+        "files": [
+            "./helper/function/env.php",
+            "./helper/script/loadEnv.php"
+        ]
+    },
+    "require": {
+        "elegance/php-extend": "^1.0"
+    }
+}
